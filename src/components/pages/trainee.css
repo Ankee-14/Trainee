@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+}
+
+.trainees-container {
+flex-direction: column;
+align-items: center;
+display: flex;
+}
+
+ .trainees-table {
+text-align:center; 
+width: 1000px;  
+background-color: rgb(242, 240, 240);
+border-radius: 10px;
+} 
+
+.trainees-table th,
+.trainees-table td {
+border: 5px solid #100101;
+padding: 10px;
+width: 1000px;
+height: 5px;
+text-align: center;
+border-radius: 100px;
+}
+
+.trainees-table th {
+background-color: #f5f5f9;
+}
+
+.trainees-table tr:nth-child(odd) {
+background-color: #f55af8;
+}
